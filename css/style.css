@@ -1,0 +1,63 @@
+.hero {
+    background-color: #efe3c4;
+	
+}
+
+.my-card-title {
+	color: #ad4011
+}
+
+body {
+	text-align: center;
+	background: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?cs=srgb&dl=light-art-blue-370799.jpg&fm=jpg);
+	font-family: 'Lora', serif;
+}
+
+
+.text-italics {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.text-left {
+	text-align: left;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bolder;	
+}
+.transparent {
+	background: transparent;
+}
+
+.card-margin {
+	margin-bottom: 12px;
+}
+
+.border1 {
+	border: 6px solid black !important;
+}
+
+.border2{
+	border: 6px solid orange !important;
+}
+
+.left-margin {
+	margin-left: 60px;
+}
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.scrolling{
+  height:150px;
+  overflow-y: scroll
+}
